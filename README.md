@@ -1,4 +1,4 @@
-# neighborhood-map
+# neighborhood_map
 Project for Udacity to show places to eat in my neighborhood.
 
 # Instructions
