@@ -2,7 +2,7 @@
 Project for Udacity to show places to eat in my neighborhood.
 
 # Instructions
-Download the application from git at https://github.com/dalaga/neighborhood-map
+Download the application from git at https://github.com/dalaga/neighborhood_map
 
 Visit index.html to see the map.
 
