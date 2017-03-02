@@ -1,0 +1,77 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main-title {
+     background-color: #4a6005;
+     padding: 1px;
+     text-align: center;
+     color: white;
+
+}
+
+#search {
+    position: absolute;
+    z-index: 5;
+    padding: 10px;
+    background-color: #362f27;
+    color: #fff;
+}
+
+@media screen and (orientation: portrait){
+	#search {
+		right: 0;
+		bottom: 0;
+		width: 100%;
+	    height: 30%;
+	    overflow: scroll;
+	}
+	#map {
+	height: 70%;
+	width:100%;
+	}
+}
+
+@media screen and (orientation: landscape){
+	#search {
+		right: 0;
+		width: 20%;
+                overflow: scroll;
+	    height: 100%;
+	}
+	#map {
+    	width: 80%;
+    	height: 100%;
+	}
+}
+
+
+
+ul {
+    margin: 10px 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a, a:hover, a:active, a:visited {
+    color: #fff;
+}
+
+.content a, .content a:hover,.content  a:active,.content  a:visited {
+    color: #3cf;
+}
+
+.review {
+	margin: 20px 0;
+}
