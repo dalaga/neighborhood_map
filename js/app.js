@@ -49,7 +49,7 @@ function init() {
             self.markers().forEach(function(currentmarker) {
                 if (currentmarker.yelp_id === businessId) {
                     selectedMarker = currentmarker;
-                    currentmarker.setIcon('https://maps.google.com/mapfiles/ms/icons/green-dot.png');
+                    currentmarker.setIcon('icons/green-dot.png');
                 } else {
                     currentmarker.setIcon('icons/purple-dot.png');
                 }
