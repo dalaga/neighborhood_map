@@ -1,5 +1,5 @@
 # neighborhood_map
-Project for Udacity to show places to eat in my neighborhood.
+Project for Udacity for my neighborhood. I want to show folks visiting where to eat in my neighborhood.
 
 # Instructions
 Download the application from git at https://dalaga.github.io/neighborhood_map
