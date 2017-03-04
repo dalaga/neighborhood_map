@@ -51,7 +51,7 @@ function init() {
                     selectedMarker = currentmarker;
                     currentmarker.setIcon('https://maps.google.com/mapfiles/ms/icons/green-dot.png');
                 } else {
-                    currentmarker.setIcon('https://maps.google.com/mapfiles/ms/icons/purple-dot.png');
+                    currentmarker.setIcon('icons/purple-dot.png');
                 }
             });
 
