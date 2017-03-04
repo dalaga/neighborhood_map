@@ -48,7 +48,7 @@ function init() {
             var selectedMarker = null;
             self.markers().forEach(function(currentmarker) {
                 if (currentmarker.yelp_id === businessId) {
-                    selectedMarker = currentmarker;
+                    selectedMarker = currentmarker; // must be secure for github
                     currentmarker.setIcon('icons/green-dot.png');
                 } else {
                     currentmarker.setIcon('icons/purple-dot.png');
@@ -120,7 +120,7 @@ function init() {
             // add marker to array of markers
             self.markers.push(new google.maps.Marker(location));
             self.markers()[self.markers().length - 1].setAnimation(null);
-            self.markers()[self.markers().length - 1].setIcon('http://maps.google.com/mapfiles/ms/icons/purple-dot.png');
+            self.markers()[self.markers().length - 1].setIcon('icons/purple-dot.png');
             // add click function to the new marker
             self.markers()[self.markers().length - 1].addListener('click', function() {
                 var marker = this;
