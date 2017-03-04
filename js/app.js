@@ -28,7 +28,7 @@ function init() {
                 accessToken: "CvLG9E-sKgK3Cu8dioQ1tMo6RhSklfLx",
                 accessTokenSecret: "jMJ_5VKK_89Kz_HHhP7YGeMw9Zw",
                 serviceProvider: {
-                    signatureMethod: "HMAC-SHA1"
+                signatureMethod: "HMAC-SHA1"
                 }
             };
             var yelp_url = 'https://api.yelp.com/v2/business/' + businessId;
@@ -49,9 +49,9 @@ function init() {
             self.markers().forEach(function(currentmarker) {
                 if (currentmarker.yelp_id === businessId) {
                     selectedMarker = currentmarker;
-                    currentmarker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png');
+                    currentmarker.setIcon('https://maps.google.com/mapfiles/ms/icons/green-dot.png');
                 } else {
-                    currentmarker.setIcon('http://maps.google.com/mapfiles/ms/icons/purple-dot.png');
+                    currentmarker.setIcon('https://maps.google.com/mapfiles/ms/icons/purple-dot.png');
                 }
             });
 
